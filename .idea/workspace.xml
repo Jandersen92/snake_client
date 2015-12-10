@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81517c9-6da5-4dd8-a688-318ef0ce3d5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/Api.java" afterPath="$PROJECT_DIR$/src/spil/Api.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$CreateGameActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$CreateGameActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$DeleteGameActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$DeleteGameActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$ExitActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$ExitActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$HighScoreActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$HighScoreActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$LoginActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$LoginActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$MenuActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$MenuActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$NewGameActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$NewGameActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$SignUpActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$SignUpActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/Logic.java" afterPath="$PROJECT_DIR$/src/logic/Logic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/ServerConnect.java" afterPath="$PROJECT_DIR$/src/spil/ServerConnect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snake_client.iws" />
@@ -42,132 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Logic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/Logic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class-diragram.uml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Class-diragram.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="192.0220588235294" y="297.0">logic.Logic</node>
-                <node x="277.18627450980387" y="79.0">spil.Gamer</node>
-                <node x="10.75" y="79.0">spil.ServerConnect</node>
-                <node x="21.39705882352939" y="158.0">spil.Api</node>
-                <node x="279.6470588235294" y="158.0">spil.Game</node>
-                <node x="194.0220588235294" y="376.0">main.Main</node>
-                <node x="322.5098039215686" y="297.0">spil.Score</node>
-                <node x="242.47058823529412" y="0.0">spil.User</node>
-                <node x="131.3970588235294" y="158.0">gui</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="logic.Logic" target="spil.Api">
-                  <point x="-24.0" y="-14.5" />
-                  <point x="201.0220588235294" y="267.0" />
-                  <point x="61.14705882352939" y="267.0" />
-                  <point x="13.25" y="14.5" />
-                </edge>
-                <edge source="logic.Logic" target="gui">
-                  <point x="-6.0" y="-14.5" />
-                  <point x="219.0220588235294" y="237.0" />
-                  <point x="198.2720588235294" y="237.0" />
-                  <point x="13.375" y="14.5" />
-                </edge>
-                <edge source="spil.Score" target="spil.Game">
-                  <point x="-16.5" y="-14.5" />
-                  <point x="339.0098039215686" y="277.0" />
-                  <point x="335.4803921568627" y="277.0" />
-                  <point x="22.333333333333314" y="14.5" />
-                </edge>
-                <edge source="main.Main" target="logic.Logic">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="spil.Game" target="spil.Gamer">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="logic.Logic" target="spil.Gamer">
-                  <point x="18.0" y="-14.5" />
-                  <point x="243.0220588235294" y="257.0" />
-                  <point x="269.1470588235294" y="257.0" />
-                  <point x="269.1470588235294" y="138.0" />
-                  <point x="289.18627450980387" y="138.0" />
-                  <point x="-24.0" y="14.5" />
-                </edge>
-                <edge source="spil.Gamer" target="spil.User">
-                  <point x="0.0" y="-14.5" />
-                  <point x="313.18627450980387" y="59.0" />
-                  <point x="292.47058823529414" y="59.0" />
-                  <point x="20.0" y="14.5" />
-                </edge>
-                <edge source="gui" target="gui">
-                  <point x="-13.375" y="14.5" />
-                  <point x="171.5220588235294" y="217.0" />
-                  <point x="101.3970588235294" y="217.0" />
-                  <point x="101.3970588235294" y="165.25" />
-                  <point x="-53.5" y="-7.25" />
-                </edge>
-                <edge source="spil.Score" target="spil.Gamer">
-                  <point x="16.5" y="-14.5" />
-                  <point x="372.0098039215686" y="277.0" />
-                  <point x="367.72058823529414" y="277.0" />
-                  <point x="367.72058823529414" y="138.0" />
-                  <point x="337.18627450980387" y="138.0" />
-                  <point x="24.0" y="14.5" />
-                </edge>
-                <edge source="logic.Logic" target="spil.Game">
-                  <point x="30.0" y="-14.5" />
-                  <point x="255.0220588235294" y="277.0" />
-                  <point x="313.1470588235294" y="277.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="logic.Logic" target="spil.ServerConnect">
-                  <point x="-18.0" y="-14.5" />
-                  <point x="207.0220588235294" y="257.0" />
-                  <point x="84.89705882352939" y="257.0" />
-                  <point x="84.89705882352939" y="128.0" />
-                  <point x="87.0" y="128.0" />
-                  <point x="15.25" y="14.5" />
-                </edge>
-                <edge source="spil.Api" target="spil.ServerConnect">
-                  <point x="-13.25" y="-14.5" />
-                  <point x="34.64705882352939" y="138.0" />
-                  <point x="26.0" y="138.0" />
-                  <point x="-45.75" y="14.5" />
-                </edge>
-                <edge source="logic.Logic" target="spil.User">
-                  <point x="6.0" y="-14.5" />
-                  <point x="231.0220588235294" y="237.0" />
-                  <point x="248.8970588235294" y="237.0" />
-                  <point x="248.8970588235294" y="49.0" />
-                  <point x="252.47058823529412" y="49.0" />
-                  <point x="-20.0" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="209.5" y="203.0" />
-              <SelectedNodes>
-                <node>main.Main</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GUI-Diagram.uml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI-Diagram.uml">
           <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -175,74 +54,173 @@
               <ID>JAVA</ID>
               <OriginalElement />
               <nodes>
-                <node x="310.49999999999994" y="129.0">gui.Screen</node>
-                <node x="313.99999999999994" y="208.0">logic.Logic</node>
-                <node x="541.0" y="0.0">gui.SignUp</node>
-                <node x="300.0" y="0.0">gui.NewGame</node>
-                <node x="637.0" y="0.0">gui.HighScore</node>
-                <node x="0.0" y="0.0">gui.LogIn</node>
-                <node x="87.0" y="0.0">gui.Menu</node>
-                <node x="414.0" y="0.0">gui.CreateGame</node>
-                <node x="172.99999999999997" y="0.0">gui.DeleteGame</node>
+                <node x="475.5" y="151.0">gui.Screen</node>
+                <node x="849.0" y="0.0">gui.SignUp</node>
+                <node x="159.0" y="0.0">gui.NewGame</node>
+                <node x="464.0" y="0.0">gui.HighScore</node>
+                <node x="612.0" y="0.0">gui.LogIn</node>
+                <node x="731.0" y="0.0">gui.Menu</node>
+                <node x="305.0" y="0.0">gui.CreateGame</node>
+                <node x="0.0" y="0.0">gui.DeleteGame</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="gui.Screen" target="gui.CreateGame">
-                  <point x="13.035714285714278" y="-14.5" />
-                  <point x="360.0357142857142" y="69.0" />
-                  <point x="494.25" y="69.0" />
-                  <point x="26.75" y="14.5" />
-                </edge>
-                <edge source="logic.Logic" target="gui.Screen">
-                  <point x="16.5" y="-14.5" />
-                  <point x="363.49999999999994" y="183.0" />
-                  <point x="365.24999999999994" y="183.0" />
-                  <point x="18.25" y="14.5" />
-                </edge>
-                <edge source="gui.Screen" target="gui.Menu">
-                  <point x="-18.25" y="-14.5" />
-                  <point x="328.74999999999994" y="79.0" />
-                  <point x="136.5" y="79.0" />
-                  <point x="16.5" y="14.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="gui.Screen" target="gui.NewGame">
-                  <point x="2.6071428571428896" y="-14.5" />
-                  <point x="349.60714285714283" y="49.0" />
-                  <point x="370.5" y="49.0" />
-                  <point x="23.5" y="14.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
-                <edge source="gui.Screen" target="gui.DeleteGame">
-                  <point x="-7.821428571428555" y="-14.5" />
-                  <point x="339.1785714285714" y="59.0" />
-                  <point x="253.24999999999997" y="59.0" />
-                  <point x="26.75" y="14.5" />
+                <edge source="gui.Screen" target="gui.Menu">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="gui.Screen" target="gui.SignUp">
-                  <point x="18.25" y="-14.5" />
-                  <point x="365.24999999999994" y="79.0" />
-                  <point x="560.0" y="79.0" />
-                  <point x="-19.0" y="14.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="gui.Screen" target="gui.DeleteGame">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="gui.Screen" target="gui.HighScore">
-                  <point x="28.678571428571445" y="-14.5" />
-                  <point x="375.6785714285714" y="99.0" />
-                  <point x="661.0" y="99.0" />
-                  <point x="-24.0" y="14.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="gui.Screen" target="gui.LogIn">
-                  <point x="-33.89285714285711" y="-14.5" />
-                  <point x="313.10714285714283" y="109.0" />
-                  <point x="16.75" y="109.0" />
-                  <point x="-16.75" y="14.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="111.5" />
-              <SelectedNodes>
-                <node>gui.LogIn</node>
-              </SelectedNodes>
+              <settings layout="Hierarchic Group" zoom="1.0" x="215.6666666666666" y="106.6666666666666" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class-diragram.uml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Class-diragram.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="101.27941176470586" y="297.0">logic.Logic</node>
+                <node x="310.9950980392157" y="79.0">spil.Gamer</node>
+                <node x="36.5" y="79.0">spil.ServerConnect</node>
+                <node x="70.77941176470586" y="158.0">spil.Api</node>
+                <node x="320.5098039215686" y="158.0">spil.Game</node>
+                <node x="103.27941176470586" y="376.0">main.Main</node>
+                <node x="359.60539215686276" y="297.0">spil.Score</node>
+                <node x="22.014705882352928" y="0.0">spil.User</node>
+                <node x="193.50980392156862" y="158.0">gui</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="logic.Logic" target="spil.Api">
+                  <point x="-6.0" y="-14.5" />
+                  <point x="128.27941176470586" y="237.0" />
+                  <point x="110.52941176470586" y="237.0" />
+                  <point x="13.25" y="14.5" />
+                </edge>
+                <edge source="logic.Logic" target="gui">
+                  <point x="18.0" y="-14.5" />
+                  <point x="152.27941176470586" y="257.0" />
+                  <point x="287.1348039215686" y="257.0" />
+                  <point x="40.125" y="14.5" />
+                </edge>
+                <edge source="spil.Score" target="spil.Game">
+                  <point x="-16.5" y="-14.5" />
+                  <point x="22.333333333333343" y="14.5" />
+                </edge>
+                <edge source="main.Main" target="logic.Logic">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="spil.Gamer" target="spil.User">
+                  <point x="0.0" y="-14.5" />
+                  <point x="346.9950980392157" y="59.0" />
+                  <point x="72.01470588235293" y="59.0" />
+                  <point x="20.0" y="14.5" />
+                </edge>
+                <edge source="spil.Game" target="spil.Gamer">
+                  <point x="0.0" y="-14.5" />
+                  <point x="354.0098039215686" y="133.0" />
+                  <point x="346.9950980392157" y="133.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="logic.Logic" target="spil.Gamer">
+                  <point x="6.0" y="-14.5" />
+                  <point x="140.27941176470586" y="237.0" />
+                  <point x="153.00980392156862" y="237.0" />
+                  <point x="153.00980392156862" y="133.0" />
+                  <point x="322.9950980392157" y="133.0" />
+                  <point x="-24.0" y="14.5" />
+                </edge>
+                <edge source="gui" target="gui">
+                  <point x="-13.375" y="14.5" />
+                  <point x="233.63480392156862" y="217.0" />
+                  <point x="163.50980392156862" y="217.0" />
+                  <point x="163.50980392156862" y="165.25" />
+                  <point x="-53.5" y="-7.25" />
+                </edge>
+                <edge source="spil.Score" target="spil.Gamer">
+                  <point x="16.5" y="-14.5" />
+                  <point x="409.10539215686276" y="133.0" />
+                  <point x="370.9950980392157" y="133.0" />
+                  <point x="24.0" y="14.5" />
+                </edge>
+                <edge source="logic.Logic" target="spil.ServerConnect">
+                  <point x="0.0" y="-14.5" />
+                  <point x="134.27941176470586" y="133.0" />
+                  <point x="143.25" y="133.0" />
+                  <point x="45.75" y="14.5" />
+                </edge>
+                <edge source="spil.Api" target="spil.ServerConnect">
+                  <point x="-13.25" y="-14.5" />
+                  <point x="84.02941176470586" y="133.0" />
+                  <point x="82.25" y="133.0" />
+                  <point x="-15.25" y="14.5" />
+                </edge>
+                <edge source="logic.Logic" target="spil.Game">
+                  <point x="30.0" y="-14.5" />
+                  <point x="164.27941176470586" y="277.0" />
+                  <point x="354.0098039215686" y="277.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="logic.Logic" target="spil.User">
+                  <point x="-30.0" y="-14.5" />
+                  <point x="104.27941176470586" y="277.0" />
+                  <point x="20.0" y="277.0" />
+                  <point x="20.0" y="49.0" />
+                  <point x="32.01470588235293" y="49.0" />
+                  <point x="-20.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="22.642857142857196" y="150.3571428571429" />
+              <SelectedNodes />
               <Categories />
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/logic/Logic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7024952">
+              <caret line="191" column="27" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -585,16 +563,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DIS eksamen" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -606,6 +584,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -927,12 +906,13 @@
       <workItem from="1449313302492" duration="11039000" />
       <workItem from="1449573554020" duration="30637000" />
       <workItem from="1449678520571" duration="886000" />
-      <workItem from="1449679455581" duration="10377000" />
+      <workItem from="1449679455581" duration="10779000" />
+      <workItem from="1449744254026" duration="1778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128869000" />
+    <option name="totallyTimeSpent" value="131049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -944,7 +924,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="4" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1328,6 +1308,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/spil/ServerConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spil/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/spil/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1392,24 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/CreateGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spil/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/NewGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1424,100 +1406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spil/ServerConnect.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/CreateGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/Logic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI-Diagram.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="310.49999999999994" y="129.0">gui.Screen</node>
-            <node x="313.99999999999994" y="208.0">logic.Logic</node>
-            <node x="541.0" y="0.0">gui.SignUp</node>
-            <node x="300.0" y="0.0">gui.NewGame</node>
-            <node x="637.0" y="0.0">gui.HighScore</node>
-            <node x="0.0" y="0.0">gui.LogIn</node>
-            <node x="87.0" y="0.0">gui.Menu</node>
-            <node x="414.0" y="0.0">gui.CreateGame</node>
-            <node x="172.99999999999997" y="0.0">gui.DeleteGame</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="gui.Screen" target="gui.CreateGame">
-              <point x="13.035714285714278" y="-14.5" />
-              <point x="360.0357142857142" y="69.0" />
-              <point x="494.25" y="69.0" />
-              <point x="26.75" y="14.5" />
-            </edge>
-            <edge source="logic.Logic" target="gui.Screen">
-              <point x="16.5" y="-14.5" />
-              <point x="363.49999999999994" y="183.0" />
-              <point x="365.24999999999994" y="183.0" />
-              <point x="18.25" y="14.5" />
-            </edge>
-            <edge source="gui.Screen" target="gui.Menu">
-              <point x="-18.25" y="-14.5" />
-              <point x="328.74999999999994" y="79.0" />
-              <point x="136.5" y="79.0" />
-              <point x="16.5" y="14.5" />
-            </edge>
-            <edge source="gui.Screen" target="gui.NewGame">
-              <point x="2.6071428571428896" y="-14.5" />
-              <point x="349.60714285714283" y="49.0" />
-              <point x="370.5" y="49.0" />
-              <point x="23.5" y="14.5" />
-            </edge>
-            <edge source="gui.Screen" target="gui.DeleteGame">
-              <point x="-7.821428571428555" y="-14.5" />
-              <point x="339.1785714285714" y="59.0" />
-              <point x="253.24999999999997" y="59.0" />
-              <point x="26.75" y="14.5" />
-            </edge>
-            <edge source="gui.Screen" target="gui.SignUp">
-              <point x="18.25" y="-14.5" />
-              <point x="365.24999999999994" y="79.0" />
-              <point x="560.0" y="79.0" />
-              <point x="-19.0" y="14.5" />
-            </edge>
-            <edge source="gui.Screen" target="gui.HighScore">
-              <point x="28.678571428571445" y="-14.5" />
-              <point x="375.6785714285714" y="99.0" />
-              <point x="661.0" y="99.0" />
-              <point x="-24.0" y="14.5" />
-            </edge>
-            <edge source="gui.Screen" target="gui.LogIn">
-              <point x="-33.89285714285711" y="-14.5" />
-              <point x="313.10714285714283" y="109.0" />
-              <point x="16.75" y="109.0" />
-              <point x="-16.75" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="111.5" />
-          <SelectedNodes>
-            <node>gui.LogIn</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1527,109 +1420,169 @@
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="192.0220588235294" y="297.0">logic.Logic</node>
-            <node x="277.18627450980387" y="79.0">spil.Gamer</node>
-            <node x="10.75" y="79.0">spil.ServerConnect</node>
-            <node x="21.39705882352939" y="158.0">spil.Api</node>
-            <node x="279.6470588235294" y="158.0">spil.Game</node>
-            <node x="194.0220588235294" y="376.0">main.Main</node>
-            <node x="322.5098039215686" y="297.0">spil.Score</node>
-            <node x="242.47058823529412" y="0.0">spil.User</node>
-            <node x="131.3970588235294" y="158.0">gui</node>
+            <node x="101.27941176470586" y="297.0">logic.Logic</node>
+            <node x="310.9950980392157" y="79.0">spil.Gamer</node>
+            <node x="36.5" y="79.0">spil.ServerConnect</node>
+            <node x="70.77941176470586" y="158.0">spil.Api</node>
+            <node x="320.5098039215686" y="158.0">spil.Game</node>
+            <node x="103.27941176470586" y="376.0">main.Main</node>
+            <node x="359.60539215686276" y="297.0">spil.Score</node>
+            <node x="22.014705882352928" y="0.0">spil.User</node>
+            <node x="193.50980392156862" y="158.0">gui</node>
           </nodes>
           <notes />
           <edges>
             <edge source="logic.Logic" target="spil.Api">
-              <point x="-24.0" y="-14.5" />
-              <point x="201.0220588235294" y="267.0" />
-              <point x="61.14705882352939" y="267.0" />
+              <point x="-6.0" y="-14.5" />
+              <point x="128.27941176470586" y="237.0" />
+              <point x="110.52941176470586" y="237.0" />
               <point x="13.25" y="14.5" />
             </edge>
             <edge source="logic.Logic" target="gui">
-              <point x="-6.0" y="-14.5" />
-              <point x="219.0220588235294" y="237.0" />
-              <point x="198.2720588235294" y="237.0" />
-              <point x="13.375" y="14.5" />
+              <point x="18.0" y="-14.5" />
+              <point x="152.27941176470586" y="257.0" />
+              <point x="287.1348039215686" y="257.0" />
+              <point x="40.125" y="14.5" />
             </edge>
             <edge source="spil.Score" target="spil.Game">
               <point x="-16.5" y="-14.5" />
-              <point x="339.0098039215686" y="277.0" />
-              <point x="335.4803921568627" y="277.0" />
-              <point x="22.333333333333314" y="14.5" />
+              <point x="22.333333333333343" y="14.5" />
             </edge>
             <edge source="main.Main" target="logic.Logic">
               <point x="0.0" y="-14.5" />
               <point x="0.0" y="14.5" />
             </edge>
+            <edge source="spil.Gamer" target="spil.User">
+              <point x="0.0" y="-14.5" />
+              <point x="346.9950980392157" y="59.0" />
+              <point x="72.01470588235293" y="59.0" />
+              <point x="20.0" y="14.5" />
+            </edge>
             <edge source="spil.Game" target="spil.Gamer">
               <point x="0.0" y="-14.5" />
+              <point x="354.0098039215686" y="133.0" />
+              <point x="346.9950980392157" y="133.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="logic.Logic" target="spil.Gamer">
-              <point x="18.0" y="-14.5" />
-              <point x="243.0220588235294" y="257.0" />
-              <point x="269.1470588235294" y="257.0" />
-              <point x="269.1470588235294" y="138.0" />
-              <point x="289.18627450980387" y="138.0" />
+              <point x="6.0" y="-14.5" />
+              <point x="140.27941176470586" y="237.0" />
+              <point x="153.00980392156862" y="237.0" />
+              <point x="153.00980392156862" y="133.0" />
+              <point x="322.9950980392157" y="133.0" />
               <point x="-24.0" y="14.5" />
-            </edge>
-            <edge source="spil.Gamer" target="spil.User">
-              <point x="0.0" y="-14.5" />
-              <point x="313.18627450980387" y="59.0" />
-              <point x="292.47058823529414" y="59.0" />
-              <point x="20.0" y="14.5" />
             </edge>
             <edge source="gui" target="gui">
               <point x="-13.375" y="14.5" />
-              <point x="171.5220588235294" y="217.0" />
-              <point x="101.3970588235294" y="217.0" />
-              <point x="101.3970588235294" y="165.25" />
+              <point x="233.63480392156862" y="217.0" />
+              <point x="163.50980392156862" y="217.0" />
+              <point x="163.50980392156862" y="165.25" />
               <point x="-53.5" y="-7.25" />
             </edge>
             <edge source="spil.Score" target="spil.Gamer">
               <point x="16.5" y="-14.5" />
-              <point x="372.0098039215686" y="277.0" />
-              <point x="367.72058823529414" y="277.0" />
-              <point x="367.72058823529414" y="138.0" />
-              <point x="337.18627450980387" y="138.0" />
+              <point x="409.10539215686276" y="133.0" />
+              <point x="370.9950980392157" y="133.0" />
               <point x="24.0" y="14.5" />
             </edge>
-            <edge source="logic.Logic" target="spil.Game">
-              <point x="30.0" y="-14.5" />
-              <point x="255.0220588235294" y="277.0" />
-              <point x="313.1470588235294" y="277.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
             <edge source="logic.Logic" target="spil.ServerConnect">
-              <point x="-18.0" y="-14.5" />
-              <point x="207.0220588235294" y="257.0" />
-              <point x="84.89705882352939" y="257.0" />
-              <point x="84.89705882352939" y="128.0" />
-              <point x="87.0" y="128.0" />
-              <point x="15.25" y="14.5" />
+              <point x="0.0" y="-14.5" />
+              <point x="134.27941176470586" y="133.0" />
+              <point x="143.25" y="133.0" />
+              <point x="45.75" y="14.5" />
             </edge>
             <edge source="spil.Api" target="spil.ServerConnect">
               <point x="-13.25" y="-14.5" />
-              <point x="34.64705882352939" y="138.0" />
-              <point x="26.0" y="138.0" />
-              <point x="-45.75" y="14.5" />
+              <point x="84.02941176470586" y="133.0" />
+              <point x="82.25" y="133.0" />
+              <point x="-15.25" y="14.5" />
+            </edge>
+            <edge source="logic.Logic" target="spil.Game">
+              <point x="30.0" y="-14.5" />
+              <point x="164.27941176470586" y="277.0" />
+              <point x="354.0098039215686" y="277.0" />
+              <point x="0.0" y="14.5" />
             </edge>
             <edge source="logic.Logic" target="spil.User">
-              <point x="6.0" y="-14.5" />
-              <point x="231.0220588235294" y="237.0" />
-              <point x="248.8970588235294" y="237.0" />
-              <point x="248.8970588235294" y="49.0" />
-              <point x="252.47058823529412" y="49.0" />
+              <point x="-30.0" y="-14.5" />
+              <point x="104.27941176470586" y="277.0" />
+              <point x="20.0" y="277.0" />
+              <point x="20.0" y="49.0" />
+              <point x="32.01470588235293" y="49.0" />
               <point x="-20.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="209.5" y="203.0" />
-          <SelectedNodes>
-            <node>main.Main</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="22.642857142857196" y="150.3571428571429" />
+          <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI-Diagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="475.5" y="151.0">gui.Screen</node>
+            <node x="849.0" y="0.0">gui.SignUp</node>
+            <node x="159.0" y="0.0">gui.NewGame</node>
+            <node x="464.0" y="0.0">gui.HighScore</node>
+            <node x="612.0" y="0.0">gui.LogIn</node>
+            <node x="731.0" y="0.0">gui.Menu</node>
+            <node x="305.0" y="0.0">gui.CreateGame</node>
+            <node x="0.0" y="0.0">gui.DeleteGame</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="gui.Screen" target="gui.CreateGame">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="gui.Screen" target="gui.NewGame">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="gui.Screen" target="gui.Menu">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="gui.Screen" target="gui.SignUp">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="gui.Screen" target="gui.DeleteGame">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="gui.Screen" target="gui.HighScore">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="gui.Screen" target="gui.LogIn">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="215.6666666666666" y="106.6666666666666" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/Logic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7024952">
+          <caret line="191" column="27" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

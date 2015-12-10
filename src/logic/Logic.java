@@ -142,10 +142,12 @@ public class Logic {
                 System.out.println("signUp succsesful");
                 return true;
             } else if (message.equals("Username or email already exsits")) {
-                System.out.println("username or email already signed up");
+                JOptionPane.showMessageDialog(screen, message, "signup",
+                        1, new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
 
             } else if (message.equals("Error in JSON")) {
-                System.out.println("something went wrong");
+                JOptionPane.showMessageDialog(screen, message, "signup",
+                        1, new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
 
             }
 
@@ -185,7 +187,16 @@ public class Logic {
                 screen.getLogin().clearTextFields();
                 JOptionPane.showMessageDialog(screen, message, "Login",
                         1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
-            } else if (e.getSource() == screen.getLogin().getBtnSignUp()) {
+            }
+            else if( message.equals("Wrong username or password")){
+                JOptionPane.showMessageDialog(screen, message, "Login",
+                        1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
+            }
+            else if (message.equals("Unknown error. Please contact Henrik Thorn at: henrik@itkartellet.dk")){
+                JOptionPane.showMessageDialog(screen, message, "Login",
+                        1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
+            }
+            else if (e.getSource() == screen.getLogin().getBtnSignUp()) {
                 screen.show(screen.SIGN_UP);
             }
         }
