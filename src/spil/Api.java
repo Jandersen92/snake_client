@@ -7,7 +7,6 @@ package spil;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -41,7 +40,7 @@ public class Api {
             message = (String) jsonobject.get("message");
 
             if (jsonobject.get("userid") != null) {
-                user.setId((int) (long) jsonobject.get("userid")); //Long tvinger JSON til int
+                user.setId((int) (long) jsonobject.get("userid"));
             }
 
         } catch (ParseException e) {
@@ -100,10 +99,5 @@ public class Api {
         return serverConnect.messageParser(jsonData);
     }
 
-    public ArrayList<Score> getHighScore(){
-        String jsonData = serverConnect.get("scores/{userid}");
-
-        return  new Gson().fromJson(jsonData, new TypeToken<ArrayList<Score>>(){}.getType());
-    }
 }
 

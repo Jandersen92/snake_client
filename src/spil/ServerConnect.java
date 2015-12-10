@@ -8,7 +8,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 /**
- * Created by sverreostgaard on 25.11.15.
+ * Created by johanandersen on 25/11/2015.
  */
 public class ServerConnect {
 
@@ -87,7 +87,8 @@ public class ServerConnect {
 
 
     /**
-     *This method is  for converting the message received from the server into a String that can be shown in a client
+     *This method is converting the message received from the server
+     * into a String that can be shown in a client
      */
     public String messageParser(String json) {
         JSONParser jsonParser = new JSONParser();

@@ -7,7 +7,6 @@ import spil.*;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 
 /**
  * Created by johanandersen on 29/11/2015.
@@ -20,8 +19,7 @@ public class Logic {
     private ServerConnect serverConnect;
     private User currentUser;
     private Api api;
-    private ArrayList<Game> games;
-
+    private Game newGame;
 
 
     public Logic()
@@ -35,13 +33,15 @@ public class Logic {
         currentUser = new User();
         serverConnect = new ServerConnect();
         api = new Api();
+        newGame = new Game();
     }
 
 
     public void run()
     {
         /**
-         * This Method is used to start the application and adding the ActionListeners from the GUI class.
+         * This Method is used to start the application
+         * and adds the ActionListeners from the GUI class.
          */
         screen.getLogin().LogInAL(new LoginActionListener());
         screen.getMenu().MenuAL(new MenuActionListener());
@@ -63,14 +63,15 @@ public class Logic {
         int gameID = screen.getDeletegame().getGameID();
 
         String message = api.deleteGame(gameID);
-        JOptionPane.showMessageDialog(screen, message, "delete", 1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
-        System.out.println(message);
+        JOptionPane.showMessageDialog(screen, message, "delete",
+                1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
         if (message.equals("game was deleted")){
             screen.show(screen.MENU);
         }
         if (message.equals("Failed. game was not deleted")){
             screen.show(screen.DELETE_GAME);
-            System.out.println("check game ID");
+            JOptionPane.showMessageDialog(screen, message, "delete",
+                    1, new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
         }
         return message;
     }
@@ -81,7 +82,8 @@ public class Logic {
      */
 
     public String createGame(){
-        if (!screen.getCreategame().getGameName().equals("") && !screen.getCreategame().getGameControls().equals("")){
+        if (!screen.getCreategame().getGameName().equals("") &&
+                !screen.getCreategame().getGameControls().equals("")){
 
             Gamer host = new Gamer();
             host.setId(currentUser.getId());
@@ -92,21 +94,16 @@ public class Logic {
             game.setHost(host);
             game.setMapSize(55);
 
-          //  Gamer opponent = new Gamer();
-           // game.setOpponent(opponent);
-
             String messageParser = api.createGame(game);
 
-            for (Game g : api.getOpenGames()){
-                if (g.getName().equals(screen.getCreategame().getGameName())){
-                    game.setGameId(g.getGameId());
-                }
-                JOptionPane.showMessageDialog(screen, "game was created","create", 1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
+
+                JOptionPane.showMessageDialog(screen, "game was created","create",
+                        1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
                 return messageParser;
-            }
         }
         else
-            JOptionPane.showMessageDialog(screen, "Something went wrong!","Error", 1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
+            JOptionPane.showMessageDialog(screen, "Something went wrong!","Error",
+                    1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
         return "";
     }
 
@@ -125,7 +122,8 @@ public class Logic {
         String password = screen.getSignup().getPassword();
         int type = 1;
 
-        if (!firstName.equals("") && !lasName.equals("") && !username.equals("") && !password.equals("") && !email.equals("")) {
+        if (!firstName.equals("") && !lasName.equals("") && !username.equals("") &&
+                !password.equals("") && !email.equals("")) {
             User user = new User();
             user.setFirstName(firstName);
             user.setLastName(lasName);
@@ -138,7 +136,8 @@ public class Logic {
 
             String message = serverConnect.messageParser(serverConnect.post(json, "users/"));
             System.out.println(message);
-            JOptionPane.showMessageDialog(screen, message,"signup", 1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
+            JOptionPane.showMessageDialog(screen, message,"signup",
+                    1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
             if (message.equals("user was created")) {
                 System.out.println("signUp succsesful");
                 return true;
@@ -162,7 +161,8 @@ public class Logic {
     {
         public void actionPerformed(ActionEvent f) {
             String action = f.getActionCommand();
-            JOptionPane.showMessageDialog(screen, "bye and have a good day!", "Exit", 1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
+            JOptionPane.showMessageDialog(screen, "bye and have a good day!", "Exit",
+                    1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
             if (action.equals("Exit")) {
                 System.exit(0);
             }
@@ -183,7 +183,8 @@ public class Logic {
             if (message.equals("Login successful")) {
                 screen.show(screen.MENU);
                 screen.getLogin().clearTextFields();
-                JOptionPane.showMessageDialog(screen, message, "Login", 1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
+                JOptionPane.showMessageDialog(screen, message, "Login",
+                        1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
             } else if (e.getSource() == screen.getLogin().getBtnSignUp()) {
                 screen.show(screen.SIGN_UP);
             }
@@ -227,7 +228,7 @@ public class Logic {
      */
     public class NewGameActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            if (e.getSource() == screen.getNewgame().getBtnStart()){
+          if (e.getSource() == screen.getNewgame().getBtnStart()){
                 screen.show(screen.MENU);
                 Game startGame = null;
 

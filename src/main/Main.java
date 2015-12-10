@@ -3,7 +3,7 @@ package main;
 import logic.Logic;
 
 /**
- * Created by sverreostgaard on 25.11.15.
+ * Created by johanandersen on 25/11/2015.
  */
 public class Main {
 
