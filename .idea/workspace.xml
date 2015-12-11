@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81517c9-6da5-4dd8-a688-318ef0ce3d5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/gui/DeleteGame.class" afterPath="$PROJECT_DIR$/out/production/snake_client/gui/DeleteGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$CreateGameActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$CreateGameActionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$DeleteGameActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$DeleteGameActionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$SignUpActionListener.class" afterPath="$PROJECT_DIR$/out/production/snake_client/logic/Logic$SignUpActionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/Api.java" afterPath="$PROJECT_DIR$/src/spil/Api.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/DeleteGame.java" afterPath="$PROJECT_DIR$/src/gui/DeleteGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/Game.java" afterPath="$PROJECT_DIR$/src/spil/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/Gamer.java" afterPath="$PROJECT_DIR$/src/spil/Gamer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/HighScore.java" afterPath="$PROJECT_DIR$/src/gui/HighScore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/LogIn.java" afterPath="$PROJECT_DIR$/src/gui/LogIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/Logic.java" afterPath="$PROJECT_DIR$/src/logic/Logic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/NewGame.java" afterPath="$PROJECT_DIR$/src/gui/NewGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/Score.java" afterPath="$PROJECT_DIR$/src/spil/Score.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/ServerConnect.java" afterPath="$PROJECT_DIR$/src/spil/ServerConnect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/SignUp.java" afterPath="$PROJECT_DIR$/src/gui/SignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spil/User.java" afterPath="$PROJECT_DIR$/src/spil/User.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Class-diragram.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GUI-Diagram.uml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snake_client.iws" />
@@ -54,14 +40,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ServerConnect.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServerConnect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spil/ServerConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.31669867">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.06097561">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/spil/Game.java" />
         <option value="$PROJECT_DIR$/src/gui/HighScore.java" />
         <option value="$PROJECT_DIR$/src/spil/ServerConnect.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -174,7 +184,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
+    <option name="x" value="-11" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
@@ -217,20 +227,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="snake_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snake_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snake_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,7 +332,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DIS eksamen" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
@@ -670,12 +666,12 @@
       <workItem from="1449573554020" duration="30637000" />
       <workItem from="1449678520571" duration="886000" />
       <workItem from="1449679455581" duration="10779000" />
-      <workItem from="1449744254026" duration="13250000" />
+      <workItem from="1449744254026" duration="17419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142521000" />
+    <option name="totallyTimeSpent" value="146690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +683,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="-11" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1027,156 +1023,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class-diragram.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="101.27941176470586" y="297.0">logic.Logic</node>
-            <node x="310.9950980392157" y="79.0">spil.Gamer</node>
-            <node x="36.5" y="79.0">spil.ServerConnect</node>
-            <node x="70.77941176470586" y="158.0">spil.Api</node>
-            <node x="320.5098039215686" y="158.0">spil.Game</node>
-            <node x="103.27941176470586" y="376.0">main.Main</node>
-            <node x="359.60539215686276" y="297.0">spil.Score</node>
-            <node x="22.014705882352928" y="0.0">spil.User</node>
-            <node x="193.50980392156862" y="158.0">gui</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="logic.Logic" target="spil.Api">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="logic.Logic" target="gui">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="spil.Score" target="spil.Game">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="main.Main" target="logic.Logic">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="spil.Gamer" target="spil.User">
-              <point x="0.0" y="-14.5" />
-              <point x="346.9950980392157" y="59.0" />
-              <point x="72.01470588235293" y="59.0" />
-              <point x="20.0" y="14.5" />
-            </edge>
-            <edge source="spil.Game" target="spil.Gamer">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="logic.Logic" target="spil.Gamer">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="gui" target="gui">
-              <point x="0.0" y="0.0" />
-              <point x="247.00980392156862" y="133.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="spil.Score" target="spil.Gamer">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="logic.Logic" target="spil.ServerConnect">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="spil.Api" target="spil.ServerConnect">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="logic.Logic" target="spil.Game">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="logic.Logic" target="spil.User">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="22.642857142857196" y="150.3571428571429" />
-          <SelectedNodes>
-            <node>logic.Logic</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI-Diagram.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="475.5" y="151.0">gui.Screen</node>
-            <node x="849.0" y="0.0">gui.SignUp</node>
-            <node x="159.0" y="0.0">gui.NewGame</node>
-            <node x="464.0" y="0.0">gui.HighScore</node>
-            <node x="612.0" y="0.0">gui.LogIn</node>
-            <node x="731.0" y="0.0">gui.Menu</node>
-            <node x="305.0" y="0.0">gui.CreateGame</node>
-            <node x="0.0" y="0.0">gui.DeleteGame</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="gui.Screen" target="gui.CreateGame">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="gui.Screen" target="gui.NewGame">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="gui.Screen" target="gui.Menu">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="gui.Screen" target="gui.SignUp">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="gui.Screen" target="gui.DeleteGame">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="gui.Screen" target="gui.HighScore">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="gui.Screen" target="gui.LogIn">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="215.6666666666666" y="106.6666666666666" />
-          <SelectedNodes>
-            <node>gui.SignUp</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Constructors</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/CreateGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1328,12 +1174,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spil/ServerConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31669867">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06097561">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
