@@ -140,7 +140,6 @@ public class Logic {
             JOptionPane.showMessageDialog(screen, message,"signup",
                     1,new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
             if (message.equals("user was created")) {
-                System.out.println("signUp succsesful");
                 return true;
             } else if (message.equals("Username or email already exsits")) {
                 JOptionPane.showMessageDialog(screen, message, "signup",
@@ -299,7 +298,6 @@ public class Logic {
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == screen.getSignup().getBtnCreate()) {
                 createUser();
-                screen.getCl().show(screen.getContentPane(), screen.LOG_IN);
             }
             if (e.getSource() == screen.getSignup().getBtnBack3()) {
                 screen.show(screen.LOG_IN);
