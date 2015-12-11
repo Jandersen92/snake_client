@@ -13,6 +13,7 @@ import java.awt.event.ActionListener;
 public class HighScore extends JPanel {
 
     private JButton btnBack1;
+    private JButton btnshow;
     private JTable table;
     private JLabel lblCbs;
 
@@ -42,8 +43,13 @@ public class HighScore extends JPanel {
         lblLine.setBounds(0, 39, 500, 50);
         add(lblLine);
 
+        btnshow = new JButton("load highscore");
+        btnshow.setBounds(160, 270, 120, 30);
+        btnshow.setActionCommand("Back1");
+        add(btnshow);
+
         btnBack1 = new JButton("Back");
-        btnBack1.setBounds(160, 280, 120, 30);
+        btnBack1.setBounds(160, 300, 120, 30);
         btnBack1.setActionCommand("Back1");
         add(btnBack1);
 
@@ -52,10 +58,14 @@ public class HighScore extends JPanel {
         add(table);
 
     }
+    /**
+     * Sets the ActionListener for the the back button.
+     */
 
     public void HighScoreAL(ActionListener a)
     {
         btnBack1.addActionListener(a);
+        btnshow.addActionListener(a);
     }
 
 }

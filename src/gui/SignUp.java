@@ -133,12 +133,18 @@ public  SignUp(){
     add(btnBack3);
 
 }
+    /**
+     * Sets the ActionListener for the the back button.
+     */
     public void SignUpAL(ActionListener e)
     {
         btnBack3.addActionListener(e);
         btnCreate.addActionListener(e);
     }
 
+    /**
+     * Get methods for textfields.
+     */
     public String getFirstName() {
         firstName = Firstname.getText();
         return firstName;
@@ -164,6 +170,9 @@ public  SignUp(){
         return email;
     }
 
+    /**
+     * get methods for the back button and the create button.
+     */
     public JButton getBtnBack3() {
         return btnBack3;
     }
@@ -172,6 +181,9 @@ public  SignUp(){
         return btnCreate;
     }
 
+    /**
+     * method to clear textfields ones the new user is registered in the database.
+     */
     public void clearTextFields()
     {
         Firstname.setText("");

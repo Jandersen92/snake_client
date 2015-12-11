@@ -85,7 +85,9 @@ public class NewGame extends JPanel {
 
     }
 
-
+    /**
+     * Get methods for buttons and textfields.
+     */
     public  String getopponentControls(){
         return opponentControls.getText();
     }
@@ -101,6 +103,8 @@ public class NewGame extends JPanel {
     public JButton getBtnStart() {
         return btnStart;
     }
+
+
 
     public void NewGameAL(ActionListener a)
     {

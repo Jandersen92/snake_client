@@ -11,7 +11,9 @@ import org.json.simple.parser.ParseException;
  * Created by johanandersen on 25/11/2015.
  */
 public class ServerConnect {
-
+    /**
+     * variables used in this class
+     */
     String host;
     int port;
 

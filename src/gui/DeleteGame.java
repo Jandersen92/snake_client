@@ -16,6 +16,7 @@ public class DeleteGame extends JPanel {
     private JTextField GameDelete;
     private JButton btnDeleteGame;
     private JLabel lblCbs;
+    private JLabel lblLine;
 
     private int gameID;
 
@@ -40,7 +41,7 @@ public class DeleteGame extends JPanel {
         lblCbs.setBounds(1, 1, 70, 70);
         add(lblCbs);
 
-        JLabel lblLine = new JLabel("__________________________");
+        lblLine = new JLabel("__________________________");
         lblLine.setForeground(Color.white);
         lblLine.setFont(new Font("Verdana", Font.BOLD, 25));
         lblLine.setBounds(0, 39, 500, 50);
@@ -63,9 +64,11 @@ public class DeleteGame extends JPanel {
         btnDeleteGame = new JButton("Delete Game");
         btnDeleteGame.setFont(new Font("Verdana", Font.PLAIN, 14));
         btnDeleteGame.setBounds(175, 240, 120, 30);
+        btnDeleteGame.setActionCommand("deleteGame");
         add(btnDeleteGame);
 
         btnBack2 = new JButton("Back");
+        btnBack2.setFont(new Font("Verdana", Font.PLAIN, 14));
         btnBack2.setBounds(175, 280, 120, 30);
         btnBack2.setActionCommand("Back2");
         add(btnBack2);

@@ -20,6 +20,11 @@ public class User {
     public User() {
     }
 
+    /**
+     * get and set-methods for all users variables
+     * @return
+     */
+
     public int getId(){ return id;}
 
     public void setId(int id) {

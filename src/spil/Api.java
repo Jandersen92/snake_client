@@ -63,6 +63,11 @@ public class Api {
 
     }
 
+    /**
+     * this method is used to create a game. it sends a object in Gson to json format
+     * @param game
+     * @return
+     */
     public String createGame(Game game) {
 
         String jsonData = serverConnect.post(new Gson().toJson(game), "games/");
@@ -82,16 +87,32 @@ public class Api {
         }.getType());
     }
 
-
+    /**
+     * This method is used for join a game
+     * @param game
+     * @return serverConnect.messageParser(jsonData);
+     */
     public String joinGame(Game game) {
         String jsonData = serverConnect.put("games/join", new Gson().toJson(game));
         return serverConnect.messageParser(jsonData);
     }
 
+    /**
+     *  this method is used to start a game. it sends an object of Game in Gson format to Json format
+     * @param gameID
+     * @return serverConnect.messageParser(jsonData);
+     */
     public String startGame(Game game) {
         String jsondata = serverConnect.put("games/start", new Gson().toJson(game));
         return serverConnect.messageParser(jsondata);
     }
+
+    /**
+     *  /**
+     * This method is used to delete a game from the database
+     * it's sending a delete-request.
+     * @return serverConnect.messageParser(jsonData);
+     */
 
     public String deleteGame(int gameID) {
         String jsonData = serverConnect.delete("games/" + gameID);

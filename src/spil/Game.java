@@ -6,7 +6,9 @@ import java.sql.Date;
  * Created by johanandersen on 04/12/2015.
  */
 public class Game {
-
+    /**
+     * variables
+     */
     private int gameId;
     private Gamer winner;
     private String name;
@@ -17,7 +19,9 @@ public class Game {
     private int mapSize;
 
     public Game(){
-
+/**
+ * get and set-methods for all variables in this class
+ */
     }
     public Date getCreated() {
         return created;

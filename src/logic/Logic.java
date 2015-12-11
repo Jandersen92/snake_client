@@ -73,6 +73,7 @@ public class Logic {
             JOptionPane.showMessageDialog(screen, message, "delete",
                     1, new ImageIcon(Logic.class.getResource("/Png/snake2.png")));
         }
+
         return message;
     }
 
@@ -110,7 +111,7 @@ public class Logic {
 
     /**
      * This method is used when we wish to add a user to our database.
-     * for being able to this we need to call the method users.serverConnect.
+     * for being able to do this, we need to call the post method: serverConnect.users.
      */
 
     public boolean createUser() {
@@ -203,8 +204,8 @@ public class Logic {
     }
 
     /**
-     * This Class handle all the Actionlisteners from the MENU.
-     * For instance if "new Game" is pressed to will be sendt to the NEW_GAME screen and so on.
+     * This Class handle all the ActionListeners from the MENU.
+     * For instance if "new Game" is pressed user will be sent to the NEW_GAME screen and so on.
      */
 
     public class MenuActionListener implements ActionListener{
@@ -281,7 +282,6 @@ public class Logic {
      */
     public class DeleteGameActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            try {
                 if (e.getSource() == screen.getDeletegame().btnDeleteGame()){
                     deleteGame();
                 }
@@ -289,11 +289,8 @@ public class Logic {
                     screen.show(screen.MENU);
                 }
             }
-            catch (Exception e1){
-                System.out.println("something went wrong");
-            }
         }
-    }
+
 
     /**
      * class to handle the ActionListeners from the Sign Up screen.

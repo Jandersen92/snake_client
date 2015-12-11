@@ -147,7 +147,7 @@ public class LogIn extends JPanel {
     }
 
     /**
-     * Get and set-methods for buttons.
+     * Get methods for buttons.
      */
 
     public JButton getBtnSignUp() {

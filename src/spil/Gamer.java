@@ -11,6 +11,11 @@ public class Gamer extends User {
     private String controls;
     private boolean Winner;
 
+    /**
+     * get and set-methed for all the variables.
+     * @return
+     */
+
     public int getScore() {
         return score;
     }

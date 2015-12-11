@@ -2,7 +2,9 @@ package spil;
 
 /**
  * Created by johanandersen on 08/12/2015.
+ * this whole class is a copy from the class score from snake_server.
  */
+
 public class Score {
     private int id;
     private Gamer user;
